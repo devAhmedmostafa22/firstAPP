@@ -23,10 +23,8 @@ import es.ux.scheduler.FollowupReminderScheduler;
 import sun.security.x509.X509CertImpl;
 
 public class Test {
-
+ // 12333
 	public static void main(String[] args) throws Exception {
-		
-		
 		String pattern = "yyyy-MM-dd HH:mm:ss";
 		
 		String timeStamp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new java.util.Date());
@@ -126,7 +124,7 @@ public class Test {
 		
 		for(DepartmentServiceOutput department : departments)
 		{
-			
+			// try it
 			System.out.println("organization arabic name = " + department.getARABIC_ORG_NAME());
 			System.out.println("Child name = " + department.getD_CHILD_NAME());
 			System.out.println("organization type = " + department.getORGANIZATION_TYPE());
